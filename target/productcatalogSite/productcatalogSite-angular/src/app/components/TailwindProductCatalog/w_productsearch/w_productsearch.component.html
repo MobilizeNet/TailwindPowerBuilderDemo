@@ -1,0 +1,14 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_productsearch" class="TailwindProductCatalog_w_productsearch">
+        <ng-template let-model>
+            <div class="w_productsearch">
+                <wm-data-manager-control id="dw_productsearch" [model]="model.dw_productsearch" class="dw_productsearch">
+                    
+                </wm-data-manager-control>
+                <wm-static-text id="st_instructions" [model]="model.st_instructions" class="st_instructions"></wm-static-text>
+                <wm-single-line-edit id="sle_keyword" [model]="model.sle_keyword" class="sle_keyword"></wm-single-line-edit>
+                <wm-command-button id="cb_search" [model]="model.cb_search" class="cb_search"></wm-command-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

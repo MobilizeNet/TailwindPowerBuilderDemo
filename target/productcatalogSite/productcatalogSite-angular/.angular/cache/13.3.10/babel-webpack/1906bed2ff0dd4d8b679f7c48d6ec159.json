@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { ShapeElement } from '../../core';\nimport { deepExtend } from '../../common';\nimport PointEventsMixin from '../mixins/point-events-mixin';\n\nclass Target extends ShapeElement {}\n\ndeepExtend(Target.prototype, PointEventsMixin);\nexport default Target;","map":null,"metadata":{},"sourceType":"module"}

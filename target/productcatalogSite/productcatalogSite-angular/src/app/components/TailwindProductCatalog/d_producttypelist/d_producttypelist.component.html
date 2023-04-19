@@ -1,0 +1,21 @@
+<wm-grid [model]="model" id="d_producttypelist" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="TailwindProductCatalog_d_producttypelist d_producttypelist">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="name_t" [tabSequence]="0" [model]="model.name_t" class="name_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="code_t" [tabSequence]="0" [model]="model.code_t" class="code_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="_name" [tabSequence]="10" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="code" [tabSequence]="20" [model]="model.code" class="code" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

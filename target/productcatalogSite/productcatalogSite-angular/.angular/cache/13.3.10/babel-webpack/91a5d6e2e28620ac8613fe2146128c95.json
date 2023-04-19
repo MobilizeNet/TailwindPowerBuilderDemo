@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ErrorBarBase from './error-bar-base';\n\nclass CategoricalErrorBar extends ErrorBarBase {\n  getAxis() {\n    const axis = this.chart.seriesValueAxis(this.series);\n    return axis;\n  }\n\n}\n\nexport default CategoricalErrorBar;","map":null,"metadata":{},"sourceType":"module"}

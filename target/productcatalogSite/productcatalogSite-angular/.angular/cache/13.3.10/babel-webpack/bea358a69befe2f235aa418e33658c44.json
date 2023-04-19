@@ -1,0 +1,1 @@
+{"ast":null,"code":"import LinePoint from '../line-chart/line-point';\n\nclass RangeLinePoint extends LinePoint {\n  aliasFor() {\n    return this.parent;\n  }\n\n}\n\nexport default RangeLinePoint;","map":null,"metadata":{},"sourceType":"module"}

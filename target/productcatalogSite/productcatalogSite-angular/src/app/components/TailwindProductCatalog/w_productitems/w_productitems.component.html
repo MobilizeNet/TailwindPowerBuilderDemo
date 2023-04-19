@@ -1,0 +1,15 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_productitems" class="TailwindProductCatalog_w_productitems">
+        <ng-template let-model>
+            <div class="w_productitems">
+                <wm-picture id="p_imgproduct" [model]="model.p_imgproduct" class="p_imgproduct"></wm-picture>
+                <wm-command-button id="cb_next" [model]="model.cb_next" class="cb_next"></wm-command-button>
+                <wm-command-button id="cb_prev" [model]="model.cb_prev" class="cb_prev"></wm-command-button>
+                <wm-command-button id="cb_update" [model]="model.cb_update" class="cb_update"></wm-command-button>
+                <wm-data-manager-control id="dw_productitems" [model]="model.dw_productitems" class="dw_productitems">
+                    
+                </wm-data-manager-control>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

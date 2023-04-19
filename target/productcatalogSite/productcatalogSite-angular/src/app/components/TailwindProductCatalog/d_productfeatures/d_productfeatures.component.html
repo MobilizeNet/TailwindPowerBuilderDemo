@@ -1,0 +1,20 @@
+<wm-freeform [model]="model" id="d_productfeatures" class="TailwindProductCatalog_d_productfeatures d_productfeatures">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="productitemid_t" [tabSequence]="0" [model]="model.productitemid_t" class="productitemid_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="productitemid" [tabSequence]="20" [model]="model.productitemid" class="productitemid" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="title_t" [tabSequence]="0" [model]="model.title_t" class="title_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_title" [tabSequence]="30" [model]="model._title" class="_title" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="description_t" [tabSequence]="0" [model]="model.description_t" class="description_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="description" [tabSequence]="40" [model]="model.description" class="description" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

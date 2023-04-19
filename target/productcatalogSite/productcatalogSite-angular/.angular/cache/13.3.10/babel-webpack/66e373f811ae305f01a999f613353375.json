@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function find(array, predicate) {\n  for (let i = 0; i < array.length; i++) {\n    const item = array[i];\n\n    if (predicate(item, i, array)) {\n      return item;\n    }\n  }\n}","map":null,"metadata":{},"sourceType":"module"}

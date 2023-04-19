@@ -1,0 +1,70 @@
+
+.TailwindProductCatalog_w_productitems .w_productitems {
+    
+    width: 898px;
+    height: 384px;
+    background-color: white;
+}
+
+
+.TailwindProductCatalog_w_productitems .p_imgproduct {
+    
+    position: absolute;
+    left: 593px;
+    top: 26px;
+    width: 296px;
+    height: 223px;
+}
+
+
+
+.TailwindProductCatalog_w_productitems .cb_next {
+    
+    position: absolute;
+    left: 175px;
+    top: 290px;
+    width: 122px;
+    height: 33px;
+    font-weight: normal;
+    font-family: Segoe UI;
+}
+
+
+
+.TailwindProductCatalog_w_productitems .cb_prev {
+    
+    position: absolute;
+    left: 37px;
+    top: 290px;
+    width: 122px;
+    height: 33px;
+    font-weight: normal;
+    font-family: Segoe UI;
+}
+
+
+
+.TailwindProductCatalog_w_productitems .cb_update {
+    
+    position: absolute;
+    left: 316px;
+    top: 290px;
+    width: 122px;
+    height: 33px;
+    font-weight: normal;
+    font-family: Segoe UI;
+}
+
+
+
+.TailwindProductCatalog_w_productitems .dw_productitems {
+    
+    position: absolute;
+    left: 29px;
+    top: 30px;
+    width: 558px;
+    height: 242px;
+    border-style: none;
+}
+
+

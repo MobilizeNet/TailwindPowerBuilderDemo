@@ -1,0 +1,26 @@
+<wm-freeform [model]="model" id="d_productitems" class="TailwindProductCatalog_d_productitems d_productitems">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="brandid" [tabSequence]="50" [model]="model.brandid" class="brandid" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="brandid_t" [tabSequence]="0" [model]="model.brandid_t" class="brandid_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="typeid_t" [tabSequence]="0" [model]="model.typeid_t" class="typeid_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="typeid" [tabSequence]="60" [model]="model.typeid" class="typeid" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="tagid" [tabSequence]="70" [model]="model.tagid" class="tagid" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="tagid_t" [tabSequence]="0" [model]="model.tagid_t" class="tagid_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="name_t" [tabSequence]="0" [model]="model.name_t" class="name_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="price_t" [tabSequence]="0" [model]="model.price_t" class="price_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="imagename" [tabSequence]="40" [model]="model.imagename" class="imagename" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="imagename_t" [tabSequence]="0" [model]="model.imagename_t" class="imagename_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="price" [tabSequence]="30" [model]="model.price" class="price" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="_name" [tabSequence]="20" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

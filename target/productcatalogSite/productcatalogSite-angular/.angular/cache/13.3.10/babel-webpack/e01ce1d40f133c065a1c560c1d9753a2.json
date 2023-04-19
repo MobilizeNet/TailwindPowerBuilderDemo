@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Class } from '../../common';\n\nclass ChartPlotArea extends Class {\n  constructor(plotArea) {\n    super();\n    this._plotArea = plotArea;\n    this.visual = plotArea.visual;\n    this.backgroundVisual = plotArea._bgVisual;\n  }\n\n}\n\nexport default ChartPlotArea;","map":null,"metadata":{},"sourceType":"module"}

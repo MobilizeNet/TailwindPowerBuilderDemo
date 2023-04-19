@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Color } from '@progress/kendo-drawing';\nimport { WHITE, BLACK } from './constants';\n\nfunction autoTextColor(color) {\n  const isDark = new Color(color).isDark();\n\n  if (isDark) {\n    return WHITE;\n  }\n\n  return BLACK;\n}\n\nexport default autoTextColor;","map":null,"metadata":{},"sourceType":"module"}

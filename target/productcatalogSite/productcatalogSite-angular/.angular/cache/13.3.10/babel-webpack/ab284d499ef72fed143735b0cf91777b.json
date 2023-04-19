@@ -1,0 +1,1 @@
+{"ast":null,"code":"import SplineAreaSegment from '../area-chart/spline-area-segment';\n\nclass SplineRadarAreaSegment extends SplineAreaSegment {\n  fillToAxes() {}\n\n}\n\nexport default SplineRadarAreaSegment;","map":null,"metadata":{},"sourceType":"module"}

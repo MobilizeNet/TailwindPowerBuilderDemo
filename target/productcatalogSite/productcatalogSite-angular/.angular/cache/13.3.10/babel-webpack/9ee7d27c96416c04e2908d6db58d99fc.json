@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function grep(array, callback) {\n  const length = array.length;\n  const result = [];\n\n  for (let idx = 0; idx < length; idx++) {\n    if (callback(array[idx])) {\n      result.push(array[idx]);\n    }\n  }\n\n  return result;\n}","map":null,"metadata":{},"sourceType":"module"}

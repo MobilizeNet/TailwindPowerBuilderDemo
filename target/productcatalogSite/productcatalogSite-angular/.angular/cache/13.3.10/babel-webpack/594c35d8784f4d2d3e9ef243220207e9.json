@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Class } from '../../common';\nexport class EncodingResult extends Class {\n  constructor(dataString, version) {\n    super();\n    this.dataString = dataString;\n    this.version = version;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

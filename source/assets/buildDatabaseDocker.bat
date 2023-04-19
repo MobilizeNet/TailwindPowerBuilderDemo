@@ -1,0 +1,1 @@
+docker build .\Database -t tailwind_productcatalog_db

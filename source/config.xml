@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<dataManagers>
+	</dataManagers>
+	<excludedBackgroundColors>
+		<color>#C0C0C0</color>
+	</excludedBackgroundColors>	
+	<connectionProperties url="jdbc:jtds:sqlserver://S10-VW10-DA021:1433/Microsoft.TailWindTraders.Product" user="adminartinsoft" pass="Password2011" driver="net.sourceforge.jtds.jdbc.Driver"/>
+	<webMapProperties sqlProvider="SybaseSqlDataProvider" startApplication="com.tailwind.productcatalog.tailwindproductcatalog.productcatalog" imageRepository="https://mobilize.blob.core.windows.net/pbjava/"/>
+	<useOnlyFreeForm>
+		<onlyFreeForm type="xs:boolean">true</onlyFreeForm>
+	</useOnlyFreeForm>
+</config>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Box from '../box';\nexport default function rectToBox(rect) {\n  const origin = rect.origin;\n  const bottomRight = rect.bottomRight();\n  return new Box(origin.x, origin.y, bottomRight.x, bottomRight.y);\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"const NAVIGATOR_PANE = \"_navigator\";\nconst NAVIGATOR_AXIS = NAVIGATOR_PANE;\nconst DEFAULT_PANE = \"_default\";\nexport { NAVIGATOR_AXIS, NAVIGATOR_PANE, DEFAULT_PANE };","map":null,"metadata":{},"sourceType":"module"}

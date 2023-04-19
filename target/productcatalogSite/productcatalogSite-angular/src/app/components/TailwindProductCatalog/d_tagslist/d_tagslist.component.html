@@ -1,0 +1,15 @@
+<wm-grid [model]="model" id="d_tagslist" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="TailwindProductCatalog_d_tagslist d_tagslist">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="value_t" [tabSequence]="0" [model]="model.value_t" class="value_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="value" [tabSequence]="10" [model]="model.value" class="value" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

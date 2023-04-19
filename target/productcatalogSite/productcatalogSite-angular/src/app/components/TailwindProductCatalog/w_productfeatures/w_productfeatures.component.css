@@ -1,0 +1,59 @@
+
+.TailwindProductCatalog_w_productfeatures .w_productfeatures {
+    
+    width: 695px;
+    height: 284px;
+    background-color: white;
+}
+
+
+.TailwindProductCatalog_w_productfeatures .cb_next {
+    
+    position: absolute;
+    left: 187px;
+    top: 184px;
+    width: 122px;
+    height: 33px;
+    font-weight: normal;
+    font-family: Segoe UI;
+}
+
+
+
+.TailwindProductCatalog_w_productfeatures .cb_prev {
+    
+    position: absolute;
+    left: 49px;
+    top: 184px;
+    width: 122px;
+    height: 33px;
+    font-weight: normal;
+    font-family: Segoe UI;
+}
+
+
+
+.TailwindProductCatalog_w_productfeatures .cb_update {
+    
+    position: absolute;
+    left: 328px;
+    top: 184px;
+    width: 122px;
+    height: 33px;
+    font-weight: normal;
+    font-family: Segoe UI;
+}
+
+
+
+.TailwindProductCatalog_w_productfeatures .dw_productfeatures {
+    
+    position: absolute;
+    left: 47px;
+    top: 32px;
+    width: 603px;
+    height: 141px;
+    border-style: none;
+}
+
+

@@ -1,0 +1,8 @@
+obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+obj\Debug\netcoreapp3.1\productcatalogSite.MvcApplicationPartsAssemblyInfo.cs
+obj\Debug\netcoreapp3.1\productcatalogSite.RazorAssemblyInfo.cs
+obj\Debug\netcoreapp3.1\Program.webmap.cs
+obj\Debug\netcoreapp3.1\RegistrationClass.webmap.cs
+obj\Debug\netcoreapp3.1\Startup.EntryPoint.webmap.cs
+obj\Debug\netcoreapp3.1\Startup.webmap.cs
+obj\Debug\netcoreapp3.1\Properties\AssemblyInfo.webmap.cs

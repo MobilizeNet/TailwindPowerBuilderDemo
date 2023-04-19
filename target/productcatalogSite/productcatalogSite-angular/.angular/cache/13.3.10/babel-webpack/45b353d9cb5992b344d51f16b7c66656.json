@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ErrorBarBase from './error-bar-base';\n\nclass ScatterErrorBar extends ErrorBarBase {\n  getAxis() {\n    const axes = this.chart.seriesAxes(this.series);\n    const axis = this.isVertical ? axes.y : axes.x;\n    return axis;\n  }\n\n}\n\nexport default ScatterErrorBar;","map":null,"metadata":{},"sourceType":"module"}

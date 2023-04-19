@@ -1,0 +1,1 @@
+{"ast":null,"code":"let current;\n\nclass DomEventsBuilder {\n  static register(userImplementation) {\n    current = userImplementation;\n  }\n\n  static create(element, events) {\n    if (current) {\n      return current.create(element, events);\n    }\n  }\n\n}\n\nexport default DomEventsBuilder;","map":null,"metadata":{},"sourceType":"module"}

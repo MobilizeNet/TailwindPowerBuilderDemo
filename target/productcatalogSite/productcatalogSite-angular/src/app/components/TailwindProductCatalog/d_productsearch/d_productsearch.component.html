@@ -1,0 +1,63 @@
+<wm-grid [model]="model" id="d_productsearch" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="TailwindProductCatalog_d_productsearch d_productsearch">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="productfeatures_title_t" [tabSequence]="0" [model]="model.productfeatures_title_t" class="productfeatures_title_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="productitems_name_t" [tabSequence]="0" [model]="model.productitems_name_t" class="productitems_name_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="productitems_price_t" [tabSequence]="0" [model]="model.productitems_price_t" class="productitems_price_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="productitems_imagename_t" [tabSequence]="0" [model]="model.productitems_imagename_t" class="productitems_imagename_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="producttypes_code_t" [tabSequence]="0" [model]="model.producttypes_code_t" class="producttypes_code_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="productbrands_brand_t" [tabSequence]="0" [model]="model.productbrands_brand_t" class="productbrands_brand_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="producttypes_type_t" [tabSequence]="0" [model]="model.producttypes_type_t" class="producttypes_type_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tags_tag_t" [tabSequence]="0" [model]="model.tags_tag_t" class="tags_tag_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="productitems_id_t" [tabSequence]="0" [model]="model.productitems_id_t" class="productitems_id_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="productfeatures_title" [tabSequence]="32766" [model]="model.productfeatures_title" class="productfeatures_title" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="productitems_name" [tabSequence]="32766" [model]="model.productitems_name" class="productitems_name" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="productitems_price" [tabSequence]="32766" [model]="model.productitems_price" class="productitems_price" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="productitems_imagename" [tabSequence]="32766" [model]="model.productitems_imagename" class="productitems_imagename" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="producttypes_code" [tabSequence]="32766" [model]="model.producttypes_code" class="producttypes_code" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="productbrands_brand" [tabSequence]="32766" [model]="model.productbrands_brand" class="productbrands_brand" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="producttypes_type" [tabSequence]="32766" [model]="model.producttypes_type" class="producttypes_type" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tags_tag" [tabSequence]="32766" [model]="model.tags_tag" class="tags_tag" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="productitems_id" [tabSequence]="0" [model]="model.productitems_id" class="productitems_id" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

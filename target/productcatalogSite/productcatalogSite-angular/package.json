@@ -1,0 +1,43 @@
+{
+  "name": "samples",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "debug": "ng build -c debug"
+  },
+  "private": true,
+  "dependencies": {
+    "@mobilize/powercomponents": "7.3.157",
+    "@angular/animations": "13.3.12",
+    "@angular/common": "13.3.12",
+    "@angular/compiler": "13.3.12",
+    "@angular/core": "13.3.12",
+    "@angular/forms": "13.3.12",
+    "@angular/localize": "13.3.12",
+    "@angular/platform-browser": "13.3.12",
+    "@angular/platform-browser-dynamic": "13.3.12",
+    "@angular/router": "13.3.12",
+    "@progress/kendo-theme-material": "3.28.0",
+    "rxjs": "7.5.2",
+    "tslib": "2.4.0",
+    "core-js": "3.21.1",
+    "zone.js": "0.11.5"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "0.1303.10",
+    "@angular-devkit/build-angular": "13.3.10",
+    "@angular-devkit/core": "13.3.10",
+    "@angular-devkit/schematics": "13.3.10",
+    "@angular/cli": "13.3.10",
+    "@angular/compiler-cli": "13.3.12",
+    "@types/node": "14.14.21",
+    "ts-node": "10.8.1",
+    "typescript": "4.4.4"
+  }
+}
+

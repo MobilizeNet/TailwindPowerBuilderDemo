@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default class HashMap {\n  constructor() {\n    this._map = {};\n  }\n\n  get(name) {\n    return this._map[this._key(name)];\n  }\n\n  set(name, value) {\n    this._map[this._key(name)] = value;\n  }\n\n  _key(name) {\n    return name instanceof Date ? name.getTime() : name;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

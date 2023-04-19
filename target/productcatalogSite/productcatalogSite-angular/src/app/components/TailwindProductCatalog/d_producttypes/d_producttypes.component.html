@@ -1,0 +1,18 @@
+<wm-freeform [model]="model" id="d_producttypes" class="TailwindProductCatalog_d_producttypes d_producttypes">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="name_t" [tabSequence]="0" [model]="model.name_t" class="name_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_name" [tabSequence]="20" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="code_t" [tabSequence]="0" [model]="model.code_t" class="code_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="code" [tabSequence]="30" [model]="model.code" class="code" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

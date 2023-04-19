@@ -1,0 +1,1 @@
+{"ast":null,"code":"import AreaSegment from '../area-chart/area-segment';\n\nclass RadarAreaSegment extends AreaSegment {\n  fillToAxes() {}\n\n}\n\nexport default RadarAreaSegment;","map":null,"metadata":{},"sourceType":"module"}

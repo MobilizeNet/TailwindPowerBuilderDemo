@@ -1,0 +1,369 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\productcatalogSite\\productcatalogSite.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\AllInterfaces\\AllInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\AllInterfaces\\AllInterfaces.csproj",
+        "projectName": "AllInterfaces",
+        "projectPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\AllInterfaces\\AllInterfaces.csproj",
+        "packagesPath": "C:\\Users\\jbarrit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\AllInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\NuGet.Config",
+          "C:\\Users\\jbarrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
+          "C:\\Repos\\PBNetConversionTool\\LocalRepository": {},
+          "http://ais-build-w7:81/nuget/utilities/": {},
+          "http://ais-build-w7:81/nuget/webmap/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/mobilizewebmap/auth/ee7beac7-dd6c-4cfd-93bd-ec405064222f/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Mobilize.Extensions.Logging.RollingFile": {
+              "target": "Package",
+              "version": "[2.1.1-rc0027, )"
+            },
+            "Mobilize.Weaving": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Mobilize.Weaving.WebMapExtensions.All": {
+              "target": "Package",
+              "version": "[7.0.36, )"
+            },
+            "Mobilize.Web.PB.BundleBasic.All": {
+              "target": "Package",
+              "version": "[2.0.2-rc.44, )"
+            },
+            "Mobilize.WebMap.CoreServices.All": {
+              "target": "Package",
+              "version": "[7.0.39, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\productcatalogSite\\productcatalogSite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\productcatalogSite\\productcatalogSite.csproj",
+        "projectName": "productcatalogSite",
+        "projectPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\productcatalogSite\\productcatalogSite.csproj",
+        "packagesPath": "C:\\Users\\jbarrit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\productcatalogSite\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\NuGet.Config",
+          "C:\\Users\\jbarrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
+          "C:\\Repos\\PBNetConversionTool\\LocalRepository": {},
+          "http://ais-build-w7:81/nuget/utilities/": {},
+          "http://ais-build-w7:81/nuget/webmap/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/mobilizewebmap/auth/ee7beac7-dd6c-4cfd-93bd-ec405064222f/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\AllInterfaces\\AllInterfaces.csproj": {
+                "projectPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\AllInterfaces\\AllInterfaces.csproj"
+              },
+              "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\TailwindProductCatalog\\TailwindProductCatalog.csproj": {
+                "projectPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\TailwindProductCatalog\\TailwindProductCatalog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Mobilize.Extensions.Logging.RollingFile": {
+              "target": "Package",
+              "version": "[2.1.1-rc0027, )"
+            },
+            "Mobilize.Weaving": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Mobilize.Weaving.WebMapExtensions.All": {
+              "target": "Package",
+              "version": "[7.0.36, )"
+            },
+            "Mobilize.Web.PB.BundleBasic.All": {
+              "target": "Package",
+              "version": "[2.0.2-rc.44, )"
+            },
+            "Mobilize.WebMap.CoreServices.All": {
+              "target": "Package",
+              "version": "[7.0.39, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.3, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[16.1.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\TailwindProductCatalog\\TailwindProductCatalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\TailwindProductCatalog\\TailwindProductCatalog.csproj",
+        "projectName": "TailwindProductCatalog",
+        "projectPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\TailwindProductCatalog\\TailwindProductCatalog.csproj",
+        "packagesPath": "C:\\Users\\jbarrit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\TailwindProductCatalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\ComponentOne\\WinForms Edition\\bin\\v6\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\NuGet.Config",
+          "C:\\Users\\jbarrit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\ComponentOne\\Packages": {},
+          "C:\\Repos\\PBNetConversionTool\\LocalRepository": {},
+          "http://ais-build-w7:81/nuget/utilities/": {},
+          "http://ais-build-w7:81/nuget/webmap/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/mobilizewebmap/auth/ee7beac7-dd6c-4cfd-93bd-ec405064222f/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\allinterfaces\\allinterfaces.csproj": {
+                "projectPath": "C:\\Users\\jbarrit\\Desktop\\PBDemos\\Migration\\TW\\MigratedSolution\\allinterfaces\\allinterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.PlatformAbstractions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Mobilize.Extensions.Logging.RollingFile": {
+              "target": "Package",
+              "version": "[2.1.1-rc0027, )"
+            },
+            "Mobilize.Weaving": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Mobilize.Weaving.WebMapExtensions.All": {
+              "target": "Package",
+              "version": "[7.0.36, )"
+            },
+            "Mobilize.Web.PB.BundleBasic.All": {
+              "target": "Package",
+              "version": "[2.0.2-rc.44, )"
+            },
+            "Mobilize.WebMap.CoreServices.All": {
+              "target": "Package",
+              "version": "[7.0.39, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

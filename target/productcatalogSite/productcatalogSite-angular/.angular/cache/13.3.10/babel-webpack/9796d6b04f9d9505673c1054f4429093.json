@@ -1,0 +1,1 @@
+{"ast":null,"code":"import CandlestickChart from '../candlestick-chart/candlestick-chart';\nimport OHLCPoint from './ohlc-point';\n\nclass OHLCChart extends CandlestickChart {\n  pointType() {\n    return OHLCPoint;\n  }\n\n}\n\nexport default OHLCChart;","map":null,"metadata":{},"sourceType":"module"}
