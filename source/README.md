@@ -23,14 +23,14 @@ This application uses datawindow controls to edit the product catalog, and it us
 
 <img src="pbide.PNG">
 
-#Product Catalog Screens
+# Product Catalog Screens
 
 
 <img src="MainScreen.PNG">
 <img src="editproducts.PNG">
 
 
-#Steps to configure and run the tailwind traders Power Builder application
+# Steps to configure and run the tailwind traders Power Builder application
 
 
 If you want to run the Power Builder application, you must follow the next steps:
