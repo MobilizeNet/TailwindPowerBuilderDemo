@@ -23,8 +23,38 @@ This application uses datawindow controls to edit the product catalog, and it us
 
 <img src="pbide.PNG">
 
-Product Catalog Screens
-=======================
+#Product Catalog Screens
+
 
 <img src="MainScreen.PNG">
 <img src="editproducts.PNG">
+
+
+#Steps to configure and run the tailwind traders Power Builder application
+
+
+If you want to run the Power Builder application, you must follow the next steps:
+
+1. Download the code.
+2. Open the TailwindProductCatalog PowerBuilder workspce locate in the source folder (use PB 10 or later).
+3. You need to configure the Datasource that will be used by the application. To do that you first need to download an install the SQL Lite ODBC driver. To download the driver, follow the next url: http://www.ch-werner.de/sqliteodbc/sqliteodbc.exe
+4. Run the downloaded executable to install the driver.
+5. After installing the driver, go to windows start menu, search for ODBC and open ***ODBC Data Source Administrator***.
+
+<img src="DataSourceAdministrator.png">
+
+6. In the ODBC Administrator, in the User DSN tab click on the Add button to add a new Datasource:
+
+<img src="AddDatasource.png">
+
+7. Select the driver ***SQLite3 ODBC Driver*** from the list of drivers and click Finish.
+
+<img src="DriverSelection.png">
+
+8. In the Datasource configuration screen add the following information:
+    Datasource Name: Tailwind
+    Database Name: Add the path to the ***tailwind.db file*** (you can find the file in the root of the repository).
+
+<img src="DataSourceConfig.png">
+
+9. You can go to the PB IDE and execute the application. If you want to check if the connection is working ok, or review the connection string created to connect to the Database, you can check and review the Open() method in w_main.
