@@ -37,7 +37,8 @@ If you want to run the Power Builder application, you must follow the next steps
 
 1. Download the code.
 2. Open the TailwindProductCatalog PowerBuilder workspce locate in the source folder (use PB 10 or later).
-3. You need to configure the Datasource that will be used by the application. To do that you first need to download an install the SQL Lite ODBC driver. To download the driver, follow the next url: http://www.ch-werner.de/sqliteodbc/sqliteodbc.exe
+3. You need to configure the Datasource that will be used by the application. To do that you first need to download an install the SQL Lite ODBC driver. To download the driver, go to the following url: ***http://www.ch-werner.de/sqliteodbc/***
+and download the ***sqliteodbc.exe*** file.
 4. Run the downloaded executable to install the driver.
 5. After installing the driver, go to windows start menu, search for ODBC and open ***ODBC Data Source Administrator***.
 
